@@ -1,0 +1,44 @@
+{"transaction_id":6,
+  "block_id":6,
+  "channel_id":1,
+  "channel_name":"public-channel",
+  "tx_hash":"18201d0ce245cba7a0b03af715e9e8fdea948b4840e1a1796556c790eb0fa6be",
+  "chaincode_id":1,
+  "chaincode_name":"bznt",
+  "method_name":"transfer",
+  "status":200,
+  "creator_msp_id":"BezantMSP",
+  "endorser_msp_id":"BezantMSP",
+  "type":"ENDORSER_TRANSACTION",
+  "read_set":[
+    {"chaincode":"bznt","set":[{"key":"aaa","version":{"block_num":"2","tx_num":"0"}},{"key":"bbb","version":{"block_num":"3","tx_num":"0"}},{"key":"tokenSetup","version":{"block_num":"2","tx_num":"0"}}]},{"chaincode":"lscc","set":[{"key":"bznt","version":{"block_num":"2","tx_num":"0"}}]}
+  ],
+  "envelope_signature":"304522100717540004400000000008500308503200000042722201353759838670190920550008900348104307882000310230",
+  "write_set":[
+	{"chaincode":"bznt",
+	"set":[
+		{"key":"aaa","is_delete":false,"value":{"balance":7997,"status":1,"allowances":[],"type":"from","amount":1}},
+		{"key":"bbb","is_delete":false,"value":{"balance":3,"status":1,"allowances":[],"type":"to","amount":0}}
+		]
+	},
+	{"chaincode":"lscc",
+	"set":[
+
+		]
+	}
+  ],
+  "payload_extension":"126124620074",
+  "create_id_bytes":"-----BEGIN CERTIFICATE-----\\nMIIChDCCAiugAwIBAgIUWz6ZlFZsCfk7vl8+/ACPvapZDzMwCgYIKoZIzj0EAwIw\\ndzELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNh\\nbiBGcmFuY2lzY28xGzAZBgNVBAoTEmJlemFudC5leGFtcGxlLmNvbTEeMBwGA1UE\\nAxMVY2EuYmV6YW50LmV4YW1wbGUuY29tMB4XDTE4MTAzMTA5NTUwMFoXDTE5MTAz\\nMTEwMDAwMFowLjEeMA0GA1UECxMGY2xpZW50MA0GA1UECxMGYmV6YW50MQwwCgYD\\nVQQDEwNhYWEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASoxzp5kONhC9Ltj+yJ\\nSO4Tyb+FZUwG1WDd61rbEuozpiBwjKXTC6d2y9mI1a3aM2VTin/SwFKtXyqvRhLQ\\njBYZo4HdMIHaMA4GA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMB0GA1UdDgQW\\nBBRp6n2HXVGJXYQoLrvJvFo/cbVNmzArBgNVHSMEJDAigCBOhsReGfPcX0fgiiT4\\nRJB4N8ZtP/Tep+wBQBg9mW5EyTBuBggqAwQFBgcIAQRieyJhdHRycyI6eyJjb21w\\nYW55IjoiamVobWkiLCJoZi5BZmZpbGlhdGlvbiI6ImJlemFudCIsImhmLkVucm9s\\nbG1lbnRJRCI6ImFhYSIsImhmLlR5cGUiOiJjbGllbnQifX0wCgYIKoZIzj0EAwID\\nRwAwRAIgAuaFvxdKcohZ1+tOMquwqzl52tPiAfGQnHTs2HK+pagCIEmYwt6Qzov8\\nec8F4EPfUdms3r2/nRtu/ZV+x5eGBXnM\\n-----END CERTIFICATE-----\\n",
+  "create_nonce":"00239802600000000004000007230",
+  "chaincode_proposal_input":"747261073666572,626262,31",
+  "tx_response":"",
+  "payload_proposal_hash":"4540f5a10abf52763da30cb707815c27c8e6468332686f03b0941c4e112b7b00",
+  "endorser_id_bytes":"-----BEGIN CERTIFICATE-----\\nMIICHjCCAcWgAwIBAgIQZlhpnaLp0T2GGT9n56DSZDAKBggqhkjOPQQDAjB3MQsw\\nCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FuIEZy\\nYW5jaXNjbzEbMBkGA1UEChMSYmV6YW50LmV4YW1wbGUuY29tMR4wHAYDVQQDExVj\\nYS5iZXphbnQuZXhhbXBsZS5jb20wHhcNMTgwOTE5MDQwNzIwWhcNMjgwOTE2MDQw\\nNzIwWjBdMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UE\\nBxMNU2FuIEZyYW5jaXNjbzEhMB8GA1UEAxMYcGVlcjAuYmV6YW50LmV4YW1wbGUu\\nY29tMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdSz2OH5ziBnfHrxgN/dXK66D\\nZSJfzmKGun5hT3uWbr09s8bojTsY5ubKxUi0EV3dkBmIgGazDymsGLsRLqCvG6NN\\nMEswDgYDVR0PAQH/BAQDAgeAMAwGA1UdEwEB/wQCMAAwKwYDVR0jBCQwIoAgTobE\\nXhnz3F9H4Iok+ESQeDfGbT/03qfsAUAYPZluRMkwCgYIKoZIzj0EAwIDRwAwRAIg\\nSVuasTR/WiD2J+2b56VT1mVtkbbZrLsw43v92KZ8VSkCIA1UZNwo8yTFdDKkKuQl\\nYybaT988r7t2dhTvBfNmuYF3\\n-----END CERTIFICATE-----\\n",
+  "endorser_signature":"304522100005932000000580000004468000003996600980220051971556950000788500240012088080820000000770",
+  "to_address":"bbb",
+  "from_address":"aaa",
+  "amount":"1",
+  "create_dt":"2018-10-31T10:00:53.000Z",
+  "chaincode_version":"v1.0",
+  "creator":"aaa",
+  "block_num":"4"}
